@@ -22,8 +22,8 @@ app.add_middleware(
 
 load_dotenv()
 
-RAZORPAY_KEY_ID = os.getenv("rzp_test_TSkop11OlWxj0s")
-RAZORPAY_KEY_SECRET = os.getenv("FJ7V1aq1Hb7CT1sOl8Zzgveo")
+RAZORPAY_KEY_ID = os.getenv("RAZORPAY_KEY_ID")
+RAZORPAY_KEY_SECRET = os.getenv("RAZORPAY_KEY_SECRET")
 
 razorpay_client = razorpay.Client(auth=(RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET))
 
